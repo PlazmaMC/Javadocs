@@ -332,7 +332,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../../../../com/destroystokyo/paper/event/entity/PreCreatureSpawnEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.entity">PreCreatureSpawnEvent</a></code></div>
 <div class="col-last odd-row-color">
-<div class="block">WARNING: This event only fires for a limited number of cases, and not for every case that CreatureSpawnEvent does.</div>
+<div class="block">WARNING: This event only fires for a limited number of cases, and not for every case that <a href="../entity/CreatureSpawnEvent.html" title="class in org.bukkit.event.entity"><code>CreatureSpawnEvent</code></a> does.</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../com/destroystokyo/paper/event/entity/PreSpawnerSpawnEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.entity">PreSpawnerSpawnEvent</a></code></div>
@@ -570,8 +570,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../com/destroystokyo/paper/event/player/PlayerSetSpawnEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.player">PlayerSetSpawnEvent</a></code></div>
 <div class="col-last even-row-color">
-<div class="block">Called when a player's spawn is set, either by themselves or otherwise.<br>
- Cancelling this event will prevent the spawn from being set.</div>
+<div class="block">Called when a player's spawn is set, either by themselves or otherwise.</div>
 </div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../../../../com/destroystokyo/paper/event/player/PlayerStartSpectatingEntityEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.player">PlayerStartSpectatingEntityEvent</a></code></div>
@@ -623,9 +622,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../../../../com/destroystokyo/paper/event/profile/PreLookupProfileEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.profile">PreLookupProfileEvent</a></code></div>
 <div class="col-last odd-row-color">
-<div class="block">Allows a plugin to intercept a Profile Lookup for a Profile by name
-
- At the point of event fire, the UUID and properties are unset.</div>
+<div class="block">Allows a plugin to intercept a Profile Lookup for a Profile by name</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../com/destroystokyo/paper/event/profile/ProfileWhitelistVerifyEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.profile">ProfileWhitelistVerifyEvent</a></code></div>
@@ -651,9 +648,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color"><code>final class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../../../../com/destroystokyo/paper/event/server/GS4QueryEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.server">GS4QueryEvent</a></code></div>
 <div class="col-last odd-row-color">
-<div class="block">This event is fired if server is getting queried over GS4 Query protocol
-
- Adapted from Velocity's ProxyQueryEvent</div>
+<div class="block">This event is fired if server is getting queried over GS4 Query protocol.</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../com/destroystokyo/paper/event/server/PaperServerListPingEvent.html" class="type-name-link" title="class in com.destroystokyo.paper.event.server">PaperServerListPingEvent</a></code></div>
@@ -812,7 +807,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/block/BlockLockCheckEvent.html" class="type-name-link" title="class in io.papermc.paper.event.block">BlockLockCheckEvent</a></code></div>
 <div class="col-last even-row-color">
-<div class="block">Called when the server tries to check the lock on a lockable tile entity.</div>
+<div class="block">Called when the server tries to check the lock on a lockable block entity.</div>
 </div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../../../../io/papermc/paper/event/block/BlockPreDispenseEvent.html" class="type-name-link" title="class in io.papermc.paper.event.block">BlockPreDispenseEvent</a></code></div>
@@ -827,7 +822,7 @@ loadScripts(document, 'script');</script>
 <div class="col-last odd-row-color">
 <div class="block">Called when the <a href="../../entity/EnderDragon.html" title="interface in org.bukkit.entity"><code>EnderDragon</code></a> is defeated (killed) in a <a href="../../boss/DragonBattle.html" title="interface in org.bukkit.boss"><code>DragonBattle</code></a>,
  causing a <a href="../../Material.html#DRAGON_EGG"><code>Material.DRAGON_EGG</code></a> (more formally: <a href="../block/BlockGrowEvent.html#getNewState()"><code>BlockGrowEvent.getNewState()</code></a>)
- to possibly appear depending on <a href="../../../../io/papermc/paper/event/block/DragonEggFormEvent.html#isCancelled()"><code>DragonEggFormEvent.isCancelled()</code></a>.</div>
+ to possibly appear depending on <a href="../block/BlockGrowEvent.html#isCancelled()"><code>BlockGrowEvent.isCancelled()</code></a>.</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/block/PlayerShearBlockEvent.html" class="type-name-link" title="class in io.papermc.paper.event.block">PlayerShearBlockEvent</a></code></div>
@@ -911,18 +906,23 @@ loadScripts(document, 'script');</script>
 <div class="block">Called just before a <a href="../../entity/PufferFish.html" title="interface in org.bukkit.entity"><code>PufferFish</code></a> inflates or deflates.</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/entity/TameableDeathMessageEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">TameableDeathMessageEvent</a></code></div>
+<div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/entity/ShulkerDuplicateEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">ShulkerDuplicateEvent</a></code></div>
 <div class="col-last even-row-color">
-<div class="block">Called when a <a href="../../entity/Tameable.html" title="interface in org.bukkit.entity"><code>Tameable</code></a> dies and sends a death message.</div>
+<div class="block">Fired when a shulker duplicates itself by spawning a new shulker.</div>
 </div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../../../../io/papermc/paper/event/entity/WardenAngerChangeEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">WardenAngerChangeEvent</a></code></div>
+<div class="col-second odd-row-color"><code><a href="../../../../io/papermc/paper/event/entity/TameableDeathMessageEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">TameableDeathMessageEvent</a></code></div>
 <div class="col-last odd-row-color">
-<div class="block">Called when a Warden's anger level has changed due to another entity.</div>
+<div class="block">Called when a <a href="../../entity/Tameable.html" title="interface in org.bukkit.entity"><code>Tameable</code></a> dies and sends a death message.</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/entity/WaterBottleSplashEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">WaterBottleSplashEvent</a></code></div>
+<div class="col-second even-row-color"><code><a href="../../../../io/papermc/paper/event/entity/WardenAngerChangeEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">WardenAngerChangeEvent</a></code></div>
 <div class="col-last even-row-color">
+<div class="block">Called when a Warden's anger level has changed due to another entity.</div>
+</div>
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../../../../io/papermc/paper/event/entity/WaterBottleSplashEvent.html" class="type-name-link" title="class in io.papermc.paper.event.entity">WaterBottleSplashEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a splash water potion "splashes" and affects
  different entities in different ways.</div>
 </div>
@@ -1236,7 +1236,8 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../block/BlockDropItemEvent.html" class="type-name-link" title="class in org.bukkit.event.block">BlockDropItemEvent</a></code></div>
 <div class="col-last even-row-color">
-<div class="block">Called if a block broken by a player drops an item.</div>
+<div class="block">Called after a block is broken by a player and potential drops are computed, even if said blocks loot table
+ does not define any drops at the point the event is constructed.</div>
 </div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
 <div class="col-second odd-row-color"><code><a href="../block/BlockEvent.html" class="type-name-link" title="class in org.bukkit.event.block">BlockEvent</a></code></div>
@@ -1589,6 +1590,20 @@ loadScripts(document, 'script');</script>
 <div class="block">Called when an entity interacts with an object</div>
 </div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityKnockbackByEntityEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityKnockbackByEntityEvent</a></code></div>
+<div class="col-last even-row-color">
+<div class="block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span>
+<div class="deprecation-comment">use <a href="../../../../com/destroystokyo/paper/event/entity/EntityKnockbackByEntityEvent.html" title="class in com.destroystokyo.paper.event.entity"><code>EntityKnockbackByEntityEvent</code></a></div>
+</div>
+</div>
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityKnockbackEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityKnockbackEvent</a></code></div>
+<div class="col-last odd-row-color">
+<div class="block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span>
+<div class="deprecation-comment">use <a href="../../../../com/destroystokyo/paper/event/entity/EntityKnockbackByEntityEvent.html" title="class in com.destroystokyo.paper.event.entity"><code>EntityKnockbackByEntityEvent</code></a> or <a href="../../../../io/papermc/paper/event/entity/EntityPushedByEntityAttackEvent.html" title="class in io.papermc.paper.event.entity"><code>EntityPushedByEntityAttackEvent</code></a></div>
+</div>
+</div>
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
 <div class="col-second even-row-color"><code><a href="../entity/EntityMountEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityMountEvent</a></code></div>
 <div class="col-last even-row-color">
 <div class="block">Called when an entity attempts to ride another entity.</div>
@@ -1636,187 +1651,194 @@ loadScripts(document, 'script');</script>
 <div class="block">Stores data for health-regain events</div>
 </div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntityResurrectEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityResurrectEvent</a></code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityRemoveEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityRemoveEvent</a></code></div>
 <div class="col-last odd-row-color">
+<div class="block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span>
+<div class="deprecation-comment">use <a href="../../../../com/destroystokyo/paper/event/entity/EntityRemoveFromWorldEvent.html" title="class in com.destroystokyo.paper.event.entity"><code>EntityRemoveFromWorldEvent</code></a> instead</div>
+</div>
+</div>
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityResurrectEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityResurrectEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when an entity dies and may have the opportunity to be resurrected.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntityShootBowEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityShootBowEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityShootBowEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityShootBowEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a LivingEntity shoots a bow firing an arrow</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntitySpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntitySpawnEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntitySpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntitySpawnEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when an entity is spawned into a world.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntitySpellCastEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntitySpellCastEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntitySpellCastEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntitySpellCastEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a <a href="../../entity/Spellcaster.html" title="interface in org.bukkit.entity"><code>Spellcaster</code></a> casts a spell.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntityTameEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTameEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityTameEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTameEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Thrown when a LivingEntity is tamed</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntityTargetEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTargetEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityTargetEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTargetEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a creature targets or untargets another entity</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntityTargetLivingEntityEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTargetLivingEntityEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityTargetLivingEntityEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTargetLivingEntityEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when an Entity targets a <a href="../../entity/LivingEntity.html" title="interface in org.bukkit.entity"><code>LivingEntity</code></a> and can only target
  LivingEntity's.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntityTeleportEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTeleportEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityTeleportEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTeleportEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Thrown when a non-player entity is teleported from one location to another.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntityToggleGlideEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityToggleGlideEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityToggleGlideEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityToggleGlideEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Sent when an entity's gliding status is toggled with an Elytra.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntityToggleSwimEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityToggleSwimEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityToggleSwimEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityToggleSwimEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Sent when an entity's swimming status is toggled.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/EntityTransformEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTransformEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/EntityTransformEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityTransformEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when an entity is about to be replaced by another entity.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/EntityUnleashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityUnleashEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/EntityUnleashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">EntityUnleashEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called immediately prior to an entity being unleashed.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/ExpBottleEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ExpBottleEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/ExpBottleEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ExpBottleEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a ThrownExpBottle hits and releases experience.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/ExplosionPrimeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ExplosionPrimeEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/ExplosionPrimeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ExplosionPrimeEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when an entity has made a decision to explode.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/FireworkExplodeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">FireworkExplodeEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/FireworkExplodeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">FireworkExplodeEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a firework explodes.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/FoodLevelChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">FoodLevelChangeEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/FoodLevelChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">FoodLevelChangeEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a human entity's food level changes</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/HorseJumpEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">HorseJumpEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/HorseJumpEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">HorseJumpEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a horse jumps.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/ItemDespawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemDespawnEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/ItemDespawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemDespawnEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">This event is called when a <a href="../../entity/Item.html" title="interface in org.bukkit.entity"><code>Item</code></a> is removed from
  the world because it has existed for 5 minutes.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/ItemMergeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemMergeEvent</a></code></div>
-<div class="col-last odd-row-color">&nbsp;</div>
 <div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/ItemSpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemSpawnEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-second even-row-color"><code><a href="../entity/ItemMergeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemMergeEvent</a></code></div>
+<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/ItemSpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ItemSpawnEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when an item is spawned into a world</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/LingeringPotionSplashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">LingeringPotionSplashEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/LingeringPotionSplashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">LingeringPotionSplashEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a splash potion hits an area</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/PiglinBarterEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PiglinBarterEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/PiglinBarterEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PiglinBarterEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Stores all data related to the bartering interaction with a piglin.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/PigZapEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PigZapEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/PigZapEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PigZapEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Stores data for pigs being zapped</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/PigZombieAngerEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PigZombieAngerEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/PigZombieAngerEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PigZombieAngerEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a Pig Zombie is angered by another entity.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/PlayerDeathEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PlayerDeathEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/PlayerDeathEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PlayerDeathEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Thrown whenever a <a href="../../entity/Player.html" title="interface in org.bukkit.entity"><code>Player</code></a> dies</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/PlayerLeashEntityEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PlayerLeashEntityEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/PlayerLeashEntityEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PlayerLeashEntityEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called immediately prior to a creature being leashed by a player.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/PotionSplashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PotionSplashEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/PotionSplashEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">PotionSplashEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a splash potion hits an area</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/ProjectileHitEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ProjectileHitEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/ProjectileHitEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ProjectileHitEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a projectile hits an object</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/ProjectileLaunchEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ProjectileLaunchEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/ProjectileLaunchEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">ProjectileLaunchEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a projectile is launched.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/SheepDyeWoolEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SheepDyeWoolEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/SheepDyeWoolEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SheepDyeWoolEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a sheep's wool is dyed</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/SheepRegrowWoolEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SheepRegrowWoolEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/SheepRegrowWoolEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SheepRegrowWoolEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a sheep regrows its wool</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/SlimeSplitEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SlimeSplitEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/SlimeSplitEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SlimeSplitEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a Slime splits into smaller Slimes upon death</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/SpawnerSpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SpawnerSpawnEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/SpawnerSpawnEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">SpawnerSpawnEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when an entity is spawned into a world by a spawner.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/StriderTemperatureChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">StriderTemperatureChangeEvent</a></code></div>
-<div class="col-last even-row-color">
+<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
+<div class="col-second odd-row-color"><code><a href="../entity/StriderTemperatureChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">StriderTemperatureChangeEvent</a></code></div>
+<div class="col-last odd-row-color">
 <div class="block">Called when a <a href="../../entity/Strider.html" title="interface in org.bukkit.entity"><code>Strider</code></a>'s temperature has changed as a result of
  entering or exiting blocks it considers warm.</div>
 </div>
-<div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/VillagerAcquireTradeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerAcquireTradeEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/VillagerAcquireTradeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerAcquireTradeEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called whenever a villager acquires a new trade.</div>
 </div>
-<div class="col-first even-row-color"><code>class&nbsp;</code></div>
-<div class="col-second even-row-color"><code><a href="../entity/VillagerCareerChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerCareerChangeEvent</a></code></div>
-<div class="col-last even-row-color">&nbsp;</div>
 <div class="col-first odd-row-color"><code>class&nbsp;</code></div>
-<div class="col-second odd-row-color"><code><a href="../entity/VillagerReplenishTradeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerReplenishTradeEvent</a></code></div>
-<div class="col-last odd-row-color">
+<div class="col-second odd-row-color"><code><a href="../entity/VillagerCareerChangeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerCareerChangeEvent</a></code></div>
+<div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-first even-row-color"><code>class&nbsp;</code></div>
+<div class="col-second even-row-color"><code><a href="../entity/VillagerReplenishTradeEvent.html" class="type-name-link" title="class in org.bukkit.event.entity">VillagerReplenishTradeEvent</a></code></div>
+<div class="col-last even-row-color">
 <div class="block">Called when a <a href="../../entity/Villager.html" title="interface in org.bukkit.entity"><code>Villager</code></a> is about to restock one of its trades.</div>
 </div>
 </div>

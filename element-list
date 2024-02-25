@@ -26,6 +26,8 @@ gg.pufferfish.pufferfish.simd
 io.papermc.paper.advancement
 io.papermc.paper.annotation
 io.papermc.paper.block
+io.papermc.paper.block.fluid
+io.papermc.paper.block.fluid.type
 io.papermc.paper.chat
 io.papermc.paper.command
 io.papermc.paper.datapack
@@ -40,10 +42,16 @@ io.papermc.paper.event.world
 io.papermc.paper.event.world.border
 io.papermc.paper.generated
 io.papermc.paper.inventory
+io.papermc.paper.inventory.tooltip
 io.papermc.paper.math
 io.papermc.paper.plugin
 io.papermc.paper.plugin.bootstrap
 io.papermc.paper.plugin.configuration
+io.papermc.paper.plugin.lifecycle.event
+io.papermc.paper.plugin.lifecycle.event.handler
+io.papermc.paper.plugin.lifecycle.event.handler.configuration
+io.papermc.paper.plugin.lifecycle.event.registrar
+io.papermc.paper.plugin.lifecycle.event.types
 io.papermc.paper.plugin.loader
 io.papermc.paper.plugin.loader.library
 io.papermc.paper.plugin.loader.library.impl
@@ -53,6 +61,7 @@ io.papermc.paper.plugin.provider.util
 io.papermc.paper.potion
 io.papermc.paper.registry
 io.papermc.paper.registry.keys
+io.papermc.paper.scoreboard.numbers
 io.papermc.paper.tag
 io.papermc.paper.text
 io.papermc.paper.threadedregions.scheduler
@@ -77,6 +86,7 @@ org.bukkit.configuration
 org.bukkit.configuration.file
 org.bukkit.configuration.serialization
 org.bukkit.conversations
+org.bukkit.damage
 org.bukkit.enchantments
 org.bukkit.entity
 org.bukkit.entity.memory
