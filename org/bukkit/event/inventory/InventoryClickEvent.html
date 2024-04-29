@@ -88,12 +88,15 @@ loadScripts(document, 'script');</script>
 </dl>
 <dl class="notes">
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="CraftItemEvent.html" title="class in org.bukkit.event.inventory">CraftItemEvent</a></code>, <code><a href="InventoryCreativeEvent.html" title="class in org.bukkit.event.inventory">InventoryCreativeEvent</a></code>, <code><a href="SmithItemEvent.html" title="class in org.bukkit.event.inventory">SmithItemEvent</a></code></dd>
+<dd><code><a href="../../../../io/papermc/paper/event/player/CartographyItemEvent.html" title="class in io.papermc.paper.event.player">CartographyItemEvent</a></code>, <code><a href="CraftItemEvent.html" title="class in org.bukkit.event.inventory">CraftItemEvent</a></code>, <code><a href="InventoryCreativeEvent.html" title="class in org.bukkit.event.inventory">InventoryCreativeEvent</a></code>, <code><a href="SmithItemEvent.html" title="class in org.bukkit.event.inventory">SmithItemEvent</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">InventoryClickEvent</span>
 <span class="extends-implements">extends <a href="InventoryInteractEvent.html" title="class in org.bukkit.event.inventory">InventoryInteractEvent</a></span></div>
 <div class="block">This event is called when a player clicks in an inventory.
+ <p>
+ In case of a drag action within an inventory, InventoryClickEvent is never called.
+ Instead, <a href="InventoryDragEvent.html" title="class in org.bukkit.event.inventory"><code>InventoryDragEvent</code></a> is called at the end of the drag.
  <p>
  Because InventoryClickEvent occurs within a modification of the Inventory,
  not all Inventory related methods are safe to use.

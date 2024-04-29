@@ -266,9 +266,14 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color">
 <div class="block">Returns all force loaded chunks in this world.</div>
 </div>
-<div class="col-first odd-row-color"><code><a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/NotNull.html" title="class or interface in org.jetbrains.annotations" class="external-link">@NotNull</a> <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../plugin/Plugin.html" title="interface in org.bukkit.plugin">Plugin</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../Chunk.html" title="interface in org.bukkit">Chunk</a>&gt;&gt;</code></div>
-<div class="col-second odd-row-color"><span class="type-name-label">World.</span><code><a href="../World.html#getPluginChunkTickets()" class="member-name-link">getPluginChunkTickets</a>()</code></div>
+<div class="col-first odd-row-color"><code><a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/NotNull.html" title="class or interface in org.jetbrains.annotations" class="external-link">@NotNull</a> <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../Chunk.html" title="interface in org.bukkit">Chunk</a>&gt;</code></div>
+<div class="col-second odd-row-color"><span class="type-name-label">World.</span><code><a href="../World.html#getIntersectingChunks(org.bukkit.util.BoundingBox)" class="member-name-link">getIntersectingChunks</a><wbr>(<a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/NotNull.html" title="class or interface in org.jetbrains.annotations" class="external-link">@NotNull</a> <a href="../util/BoundingBox.html" title="class in org.bukkit.util">BoundingBox</a>&nbsp;box)</code></div>
 <div class="col-last odd-row-color">
+<div class="block">Gets all Chunks intersecting the given BoundingBox.</div>
+</div>
+<div class="col-first even-row-color"><code><a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/NotNull.html" title="class or interface in org.jetbrains.annotations" class="external-link">@NotNull</a> <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../plugin/Plugin.html" title="interface in org.bukkit.plugin">Plugin</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../Chunk.html" title="interface in org.bukkit">Chunk</a>&gt;&gt;</code></div>
+<div class="col-second even-row-color"><span class="type-name-label">World.</span><code><a href="../World.html#getPluginChunkTickets()" class="member-name-link">getPluginChunkTickets</a>()</code></div>
+<div class="col-last even-row-color">
 <div class="block">Returns a map of which plugins have tickets for what chunks.</div>
 </div>
 </div>
@@ -403,6 +408,28 @@ loadScripts(document, 'script');</script>
 <div class="col-second even-row-color"><span class="type-name-label">Entity.</span><code><a href="../entity/Entity.html#getChunk()" class="member-name-link">getChunk</a>()</code></div>
 <div class="col-last even-row-color">
 <div class="block">Gets the latest chunk an entity is currently or was in.</div>
+</div>
+</div>
+<div class="caption"><span>Methods in <a href="../entity/package-summary.html">org.bukkit.entity</a> that return types with arguments of type <a href="../Chunk.html" title="interface in org.bukkit">Chunk</a></span></div>
+<div class="summary-table three-column-summary">
+<div class="table-header col-first">Modifier and Type</div>
+<div class="table-header col-second">Method</div>
+<div class="table-header col-last">Description</div>
+<div class="col-first even-row-color"><code><a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/NotNull.html" title="class or interface in org.jetbrains.annotations" class="external-link">@NotNull</a> <a href="https://javadoc.io/doc/org.jetbrains/annotations/24.0.1/org/jetbrains/annotations/Unmodifiable.html" title="class or interface in org.jetbrains.annotations" class="external-link">@Unmodifiable</a> <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;<a href="../Chunk.html" title="interface in org.bukkit">Chunk</a>&gt;</code></div>
+<div class="col-second even-row-color"><span class="type-name-label">Player.</span><code><a href="../entity/Player.html#getSentChunks()" class="member-name-link">getSentChunks</a>()</code></div>
+<div class="col-last even-row-color">
+<div class="block">Gets the set of chunks that have been sent to the player.</div>
+</div>
+</div>
+<div class="caption"><span>Methods in <a href="../entity/package-summary.html">org.bukkit.entity</a> with parameters of type <a href="../Chunk.html" title="interface in org.bukkit">Chunk</a></span></div>
+<div class="summary-table three-column-summary">
+<div class="table-header col-first">Modifier and Type</div>
+<div class="table-header col-second">Method</div>
+<div class="table-header col-last">Description</div>
+<div class="col-first even-row-color"><code>default boolean</code></div>
+<div class="col-second even-row-color"><span class="type-name-label">Player.</span><code><a href="../entity/Player.html#isChunkSent(org.bukkit.Chunk)" class="member-name-link">isChunkSent</a><wbr>(<a href="../Chunk.html" title="interface in org.bukkit">Chunk</a>&nbsp;chunk)</code></div>
+<div class="col-last even-row-color">
+<div class="block">Checks if the player has been sent a specific chunk.</div>
 </div>
 </div>
 </section>

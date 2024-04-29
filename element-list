@@ -25,6 +25,7 @@ gg.pufferfish.pufferfish.sentry
 gg.pufferfish.pufferfish.simd
 io.papermc.paper.advancement
 io.papermc.paper.annotation
+io.papermc.paper.ban
 io.papermc.paper.block
 io.papermc.paper.block.fluid
 io.papermc.paper.block.fluid.type
