@@ -6,3 +6,7 @@
 	path = 1.20.6
 	url = https://github.com/PlazmaMC/Javadocs
 	branch = 1.20.6
+[submodule "1.21.3"]
+	path = 1.21.3
+	url = https://github.com/PlazmaMC/Javadocs
+	branch = 1.21.3
