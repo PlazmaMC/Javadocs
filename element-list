@@ -156,6 +156,7 @@ org.bukkit.util.io
 org.bukkit.util.noise
 org.bukkit.util.permissions
 org.plazmamc.plazma
+org.plazmamc.plazma.constants
 org.purpurmc.purpur.entity
 org.purpurmc.purpur.event
 org.purpurmc.purpur.event.entity

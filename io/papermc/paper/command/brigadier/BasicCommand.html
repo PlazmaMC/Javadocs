@@ -117,21 +117,26 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
 <div class="block">Checks whether a command sender can receive and run the root command.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#execute(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">execute</a><wbr>(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
- <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code>default void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code><a href="#execute(io.papermc.paper.command.brigadier.CommandSourceStack)" class="member-name-link">execute</a><wbr>(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
 <div class="block">Executes the command with the given <a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code>default <a href="https://jspecify.dev/docs/api/org/jspecify/annotations/Nullable.html" title="class or interface in org.jspecify.annotations" class="external-link">@Nullable</a> <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code><a href="#permission()" class="member-name-link">permission</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#execute(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">execute</a><wbr>(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
+ <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
+<div class="block">Executes the command with the given <a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code>default <a href="https://jspecify.dev/docs/api/org/jspecify/annotations/Nullable.html" title="class or interface in org.jspecify.annotations" class="external-link">@Nullable</a> <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code><a href="#permission()" class="member-name-link">permission</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
 <div class="block">Returns the permission for the root command used in <a href="#canUse(org.bukkit.command.CommandSender)"><code>canUse(CommandSender)</code></a> by default.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code>default <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code><a href="#suggest(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">suggest</a><wbr>(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code>default <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5"><code><a href="#suggest(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">suggest</a><wbr>(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab5">
 <div class="block">Suggests possible completions for the given command <a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
 </div>
 </div>
@@ -148,6 +153,17 @@ loadScripts(document, 'script');</script>
 <section class="method-details" id="method-detail">
 <h2>Method Details</h2>
 <ul class="member-list">
+<li>
+<section class="detail" id="execute(io.papermc.paper.command.brigadier.CommandSourceStack)">
+<h3>execute</h3>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">execute</span><wbr><span class="parameters">(<a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack)</span></div>
+<div class="block">Executes the command with the given <a href="CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>commandSourceStack</code> - the commandSourceStack of the command</dd>
+</dl>
+</section>
+</li>
 <li>
 <section class="detail" id="execute(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String[])">
 <h3>execute</h3>

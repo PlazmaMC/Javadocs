@@ -112,16 +112,21 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color"><code>void</code></div>
-<div class="col-second even-row-color"><span class="type-name-label">BasicCommand.</span><code><a href="../BasicCommand.html#execute(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">execute</a><wbr>(<a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
- <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
+<div class="col-first even-row-color"><code>default void</code></div>
+<div class="col-second even-row-color"><span class="type-name-label">BasicCommand.</span><code><a href="../BasicCommand.html#execute(io.papermc.paper.command.brigadier.CommandSourceStack)" class="member-name-link">execute</a><wbr>(<a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack)</code></div>
 <div class="col-last even-row-color">
 <div class="block">Executes the command with the given <a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
 </div>
-<div class="col-first odd-row-color"><code>default <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
-<div class="col-second odd-row-color"><span class="type-name-label">BasicCommand.</span><code><a href="../BasicCommand.html#suggest(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">suggest</a><wbr>(<a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
+<div class="col-first odd-row-color"><code>void</code></div>
+<div class="col-second odd-row-color"><span class="type-name-label">BasicCommand.</span><code><a href="../BasicCommand.html#execute(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">execute</a><wbr>(<a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
 <div class="col-last odd-row-color">
+<div class="block">Executes the command with the given <a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
+</div>
+<div class="col-first even-row-color"><code>default <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</code></div>
+<div class="col-second even-row-color"><span class="type-name-label">BasicCommand.</span><code><a href="../BasicCommand.html#suggest(io.papermc.paper.command.brigadier.CommandSourceStack,java.lang.String%5B%5D)" class="member-name-link">suggest</a><wbr>(<a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier">CommandSourceStack</a>&nbsp;commandSourceStack,
+ <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
+<div class="col-last even-row-color">
 <div class="block">Suggests possible completions for the given command <a href="../CommandSourceStack.html" title="interface in io.papermc.paper.command.brigadier"><code>CommandSourceStack</code></a> and arguments.</div>
 </div>
 </div>
